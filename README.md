@@ -69,7 +69,7 @@ An intelligent RAG system that combines Hugging Face sentence embeddings with Gr
 ---
 
 ## Model Architecture
-
+---python
 
 # Embedding Pipeline
 document_chunks = split_text(doc)
