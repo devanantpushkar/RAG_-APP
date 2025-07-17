@@ -55,12 +55,14 @@ An intelligent RAG system that combines Hugging Face sentence embeddings with Gr
 
 ---
 
-## 🔁 Query Flow
+## Query Flow
 
 ```text
 [User Query] → [Embed Query] → [Search FAISS Index] 
 → [Select Top-k Chunks] → [Format Prompt] → [LLM (Gemma)] 
 → [Return Answer + Source Context]
+
+ ## Model Architecture
 
 # Document Embedding Pipeline
 chunks = split_document(doc)
