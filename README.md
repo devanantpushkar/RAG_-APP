@@ -62,6 +62,8 @@ An intelligent RAG system that combines Hugging Face sentence embeddings with Gr
 → [Select Top-k Chunks] → [Format Prompt] → [LLM (Gemma)] 
 → [Return Answer + Source Context]
 
+```text
+
  ## Model Architecture
 
 # Document Embedding Pipeline
