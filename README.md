@@ -124,6 +124,33 @@ Git & GitHub – Version control and collaboration
 
 ---
 
+ **How to Run**
+
+ ---
+ 
+Step 1: Clone the repository
+
+```text
+git clone https://github.com/yourusername/rag-app.git
+cd rag-app
+```
+
+Step 2: Install dependencies
+
+```text
+pip install -r requirements.txt
+Step 3: Run the Streamlit App
+```
+
+```text
+streamlit run app.py
+Optional: Run FastAPI Backend
+```
+
+```text
+uvicorn backend.main:app --reload
+```
+
 ## Future Improvements
 
    Add memory and history for follow-up Q&A
