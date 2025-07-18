@@ -139,8 +139,10 @@ Step 2: Install dependencies
 
 ```text
 pip install -r requirements.txt
-Step 3: Run the Streamlit App
 ```
+
+Step 3: Run the Streamlit App
+
 
 ```text
 streamlit run app.py
